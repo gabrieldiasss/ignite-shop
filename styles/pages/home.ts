@@ -54,6 +54,12 @@ export const Product = styled("div", {
     },
   },
 
+  div: {
+    display: "flex",
+    flexDirection: "column",
+    gap: 4
+  },
+
   "&:hover": {
     footer: {
       transform: "translateY(0%)",
@@ -61,3 +67,8 @@ export const Product = styled("div", {
     },
   },
 });
+
+export const SkeletonContainer = styled("div", {
+  display: "flex",
+  gap: "1rem"
+})
